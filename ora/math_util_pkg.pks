@@ -1,4 +1,4 @@
-create or replace package math_util_pkg
+create or replace package math_util_pkg authid current_user
 as
  
   /*
@@ -29,3 +29,5 @@ as
                     
 end math_util_pkg;
 /
+sho err
+

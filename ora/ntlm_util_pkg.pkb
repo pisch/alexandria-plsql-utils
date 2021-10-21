@@ -935,4 +935,6 @@ end get_authenticate_message;
 
 end ntlm_util_pkg;
 /
+sho err
+
 

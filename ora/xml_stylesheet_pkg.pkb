@@ -684,6 +684,8 @@ end transform_clob;
  
 end xml_stylesheet_pkg;
 /
+sho err
+
  
 
 

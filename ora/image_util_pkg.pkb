@@ -572,6 +572,8 @@ end get_image_info;
  
 end image_util_pkg;
 /
+sho err
+
  
 
 

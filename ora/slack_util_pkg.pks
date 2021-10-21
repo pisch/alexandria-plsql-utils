@@ -1,4 +1,4 @@
-create or replace package slack_util_pkg
+create or replace package slack_util_pkg authid current_user
 as
  
   /*
@@ -32,4 +32,6 @@ as
 
 end slack_util_pkg;
 /
+sho err
+
 

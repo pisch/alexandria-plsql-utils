@@ -1,4 +1,4 @@
-create or replace package amazon_aws_auth_pkg
+create or replace package amazon_aws_auth_pkg authid current_user
 as
 
   /*
@@ -47,3 +47,5 @@ as
 
 end amazon_aws_auth_pkg;
 /
+sho err
+

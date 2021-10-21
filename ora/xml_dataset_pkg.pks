@@ -1,4 +1,4 @@
-create or replace package xml_dataset_pkg
+create or replace package xml_dataset_pkg authid current_user
 as
  
   /*
@@ -63,4 +63,6 @@ as
 
 end xml_dataset_pkg;
 /
+sho err
+
  

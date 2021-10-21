@@ -88,8 +88,12 @@ begin
   
   htp.p('<script src="http://maps.google.com/maps?file=api&v=2&key=' || google_maps_pkg.get_api_key || '" type="text/javascript"></script> 
 <script type="text/javascript">
-//<![CDATA[   
-//globals 
+//<![CDATA[
+sho err
+
+//globals
+sho err
+
 var bounds = new GLatLngBounds(); 
 function initMap() { 
 if (GBrowserIsCompatible()) {    
@@ -152,5 +156,7 @@ end render_map_placeholder;
  
 end google_maps_js_pkg;
 /
+sho err
+
  
 

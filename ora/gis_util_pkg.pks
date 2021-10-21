@@ -1,4 +1,4 @@
-create or replace package gis_util_pkg
+create or replace package gis_util_pkg authid current_user
 as
  
   /*
@@ -33,3 +33,5 @@ as
  
 end gis_util_pkg;
 /
+sho err
+

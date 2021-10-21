@@ -1,4 +1,4 @@
-create or replace package paypal_util_pkg
+create or replace package paypal_util_pkg authid current_user
 as
  
   /*
@@ -112,4 +112,6 @@ as
 
 end paypal_util_pkg;
 /
+sho err
+
 

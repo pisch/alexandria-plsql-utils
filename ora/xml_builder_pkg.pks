@@ -43,4 +43,6 @@ as
   
 end xml_builder_pkg;
 /
+sho err
+
 

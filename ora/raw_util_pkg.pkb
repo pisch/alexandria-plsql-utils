@@ -234,6 +234,8 @@ end bit_shift_right_raw;
  
 end raw_util_pkg;
 /
+sho err
+
  
 
 

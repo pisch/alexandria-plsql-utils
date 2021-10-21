@@ -1,4 +1,4 @@
-create or replace package google_translate_pkg
+create or replace package google_translate_pkg authid current_user
 as
 
   /*
@@ -125,4 +125,6 @@ as
 
 end google_translate_pkg;
 /
+sho err
+
 

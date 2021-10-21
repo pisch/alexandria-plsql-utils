@@ -1,4 +1,4 @@
-create or replace package sms_util_pkg
+create or replace package sms_util_pkg authid current_user
 as
  
   /*
@@ -51,4 +51,6 @@ as
 
 end sms_util_pkg;
 /
+sho err
+
 

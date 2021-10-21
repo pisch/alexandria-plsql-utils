@@ -1,4 +1,4 @@
-create or replace package debug_pkg
+create or replace package debug_pkg authid current_user
 as
 
   /*
@@ -71,4 +71,6 @@ as
 
 end debug_pkg;
 /
+sho err
+
 

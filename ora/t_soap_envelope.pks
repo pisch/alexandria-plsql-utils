@@ -50,3 +50,4 @@ create or replace type t_soap_envelope as object (
   
   ); 
 /
+sho err

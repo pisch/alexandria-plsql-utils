@@ -1,4 +1,4 @@
-create or replace package soap_server_pkg
+create or replace package soap_server_pkg authid current_user
 as
 
   /*
@@ -21,4 +21,6 @@ as
 
 end soap_server_pkg;
 /
+sho err
+
 

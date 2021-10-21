@@ -1,4 +1,4 @@
-create or replace package web_util_pkg
+create or replace package web_util_pkg authid current_user
 as
  
   /*
@@ -43,4 +43,6 @@ as
 
 end web_util_pkg;
 /
+sho err
+
 

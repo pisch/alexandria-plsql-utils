@@ -310,4 +310,6 @@ end clob_to_csv;
 
 end csv_util_pkg;
 /
+sho err
+
  

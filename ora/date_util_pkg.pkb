@@ -676,3 +676,5 @@ end get_date_tab;
 
 end date_util_pkg;
 /
+sho err
+

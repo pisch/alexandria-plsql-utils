@@ -1,4 +1,4 @@
-create or replace package flex_ws_api
+create or replace package flex_ws_api authid current_user
 as
 
   /*
@@ -96,3 +96,5 @@ function parse_response_clob (
 
 end flex_ws_api;
 /
+sho err
+

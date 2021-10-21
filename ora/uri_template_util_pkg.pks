@@ -1,4 +1,4 @@
-create or replace package uri_template_util_pkg
+create or replace package uri_template_util_pkg authid current_user
 as
  
   /*
@@ -30,4 +30,6 @@ as
  
 end uri_template_util_pkg;
 /
+sho err
+
 

@@ -1,4 +1,4 @@
-create or replace package amazon_aws_s3_pkg
+create or replace package amazon_aws_s3_pkg authid current_user
 as
 
   /*
@@ -141,4 +141,6 @@ as
 
 end amazon_aws_s3_pkg;
 /
+sho err
+
 

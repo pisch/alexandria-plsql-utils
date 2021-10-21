@@ -1,4 +1,4 @@
-create or replace package sql_builder_pkg
+create or replace package sql_builder_pkg authid current_user
 as
 
   /*
@@ -54,4 +54,6 @@ as
 
 end sql_builder_pkg;
 /
+sho err
+
 

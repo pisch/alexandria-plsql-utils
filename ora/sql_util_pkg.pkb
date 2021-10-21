@@ -189,4 +189,6 @@ end blob_to_clob;
 
 end sql_util_pkg;
 /
+sho err
+
 

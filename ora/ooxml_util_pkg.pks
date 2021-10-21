@@ -1,4 +1,4 @@
-create or replace package ooxml_util_pkg
+create or replace package ooxml_util_pkg authid current_user
 as
  
   /*
@@ -151,3 +151,4 @@ as
 
 end ooxml_util_pkg;
 /
+sho err

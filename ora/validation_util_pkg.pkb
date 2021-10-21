@@ -82,6 +82,8 @@ end is_valid_email_list;
 
 end validation_util_pkg;
 /
+sho err
+
  
 
 

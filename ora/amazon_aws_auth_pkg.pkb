@@ -243,3 +243,5 @@ end init;
 
 end amazon_aws_auth_pkg;
 /
+sho err
+

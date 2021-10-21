@@ -1,4 +1,4 @@
-create or replace package ms_ews_util_pkg
+create or replace package ms_ews_util_pkg authid current_user
 as
  
   /*
@@ -319,4 +319,6 @@ as
 
 end ms_ews_util_pkg;
 /
+sho err
+
 

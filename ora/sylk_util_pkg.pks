@@ -1,4 +1,4 @@
-create or replace package sylk_util_pkg
+create or replace package sylk_util_pkg authid current_user
 as
  
   /*
@@ -47,4 +47,6 @@ as
 
 end sylk_util_pkg;
 /
+sho err
+
 

@@ -76,11 +76,12 @@ begin
   
   */
 
-  if (apex_application.g_debug) then
-
-    apex_application.debug (p_msg);
-
-  elsif (m_debugging) then
+--  if (apex_application.g_debug) then
+--
+--    apex_application.debug (p_msg);
+--
+--  elsif (m_debugging) then
+  if (m_debugging) then
 
     l_text:=to_char(sysdate, 'dd.mm.yyyy hh24:mi:ss') || ': ' || nvl(p_msg, '(null)');
     
@@ -334,7 +335,8 @@ begin
   
   */
 
-  if (m_debugging or apex_application.g_debug) then
+--  if (m_debugging or apex_application.g_debug) then
+    if (m_debugging) then
   
     l_text:=p_msg;
     
@@ -424,4 +426,6 @@ end clear_info;
 
 end debug_pkg;
 /
+sho err
+
 

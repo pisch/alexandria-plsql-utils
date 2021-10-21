@@ -1,5 +1,5 @@
-create or replace package xlsx_builder_pkg
-authid current_user as
+create or replace package xlsx_builder_pkg authid current_user
+as
 /**********************************************
 **
 ** Author: Anton Scheffer
@@ -99,6 +99,8 @@ THE SOFTWARE.
     , p_right varchar2 := 'thin'
     )
 /*
+sho err
+
 none
 thin
 medium
@@ -122,6 +124,8 @@ slantDashDot
     , p_wrapText boolean := null
     )
 /* horizontal
+sho err
+
 center
 centerContinuous
 distributed
@@ -132,6 +136,8 @@ left
 right
 */
 /* vertical
+sho err
+
 bottom
 center
 distributed
@@ -308,3 +314,4 @@ top
     );
 end;
 /
+sho err

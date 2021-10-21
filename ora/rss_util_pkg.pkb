@@ -373,4 +373,6 @@ end rss_to_table;
 
 end rss_util_pkg;
 /
+sho err
+
 

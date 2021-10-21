@@ -1,4 +1,4 @@
-create or replace package ntlm_util_pkg
+create or replace package ntlm_util_pkg authid current_user
 as
 
   /*
@@ -38,4 +38,6 @@ as
 
 end ntlm_util_pkg;
 /
+sho err
+
 

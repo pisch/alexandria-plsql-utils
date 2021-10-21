@@ -1,4 +1,4 @@
-create or replace package google_maps_pkg
+create or replace package google_maps_pkg authid current_user
 as
 
   /*
@@ -55,4 +55,6 @@ as
 
 end google_maps_pkg;
 /
+sho err
+
 

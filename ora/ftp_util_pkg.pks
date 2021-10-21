@@ -118,5 +118,7 @@ AS
 
 END ftp_util_pkg;
 /
+sho err
+
 
 

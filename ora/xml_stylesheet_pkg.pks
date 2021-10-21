@@ -1,4 +1,4 @@
-create or replace package xml_stylesheet_pkg
+create or replace package xml_stylesheet_pkg authid current_user
 as
  
   /*
@@ -30,5 +30,5 @@ as
  
 end xml_stylesheet_pkg;
 /
- 
+sho err
 

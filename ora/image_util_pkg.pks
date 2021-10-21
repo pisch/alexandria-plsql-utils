@@ -1,4 +1,4 @@
-create or replace package image_util_pkg
+create or replace package image_util_pkg authid current_user
 as
  
   /*
@@ -41,4 +41,6 @@ as
  
 end image_util_pkg;
 /
+sho err
+
 

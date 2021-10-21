@@ -1039,6 +1039,8 @@ as
   end;
 --
 /*
+sho err
+
   procedure add1xml
     ( p_excel in out nocopy blob
     , p_filename varchar2
@@ -1984,4 +1986,6 @@ style="position:absolute;margin-left:35.25pt;margin-top:3pt;z-index:' || to_char
   end;
 end xlsx_builder_pkg;
 /
+sho err
+
 

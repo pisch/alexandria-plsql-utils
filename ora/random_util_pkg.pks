@@ -1,4 +1,4 @@
-create or replace package random_util_pkg
+create or replace package random_util_pkg authid current_user
 as
  
   /*
@@ -68,4 +68,6 @@ as
 
 end random_util_pkg;
 /
+sho err
+
 

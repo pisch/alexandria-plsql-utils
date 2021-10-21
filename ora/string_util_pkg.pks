@@ -1,4 +1,4 @@
-create or replace package string_util_pkg
+create or replace package string_util_pkg authid current_user
 as
 
   /*
@@ -14,6 +14,7 @@ as
   */
   
   g_max_pl_varchar2_def          varchar2(32767);
+
   subtype t_max_pl_varchar2      is g_max_pl_varchar2_def%type;
   
   g_max_db_varchar2_def          varchar2(4000);
@@ -177,4 +178,6 @@ as
                               
 end string_util_pkg;
 /
+sho err
+
 

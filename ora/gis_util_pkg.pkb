@@ -83,6 +83,8 @@ end get_ecliptic_distance;
  
 end gis_util_pkg;
 /
+sho err
+
  
 
 

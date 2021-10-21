@@ -1,4 +1,4 @@
-create or replace package ntlm_http_pkg
+create or replace package ntlm_http_pkg authid current_user
 as
 
   /*
@@ -47,3 +47,5 @@ as
 
 end ntlm_http_pkg;
 /
+sho err
+
